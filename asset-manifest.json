@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.bcbd92d6.css",
-    "main.js": "/shop/static/js/main.d937e48a.js",
+    "main.css": "/shop/static/css/main.0a2f6e1f.css",
+    "main.js": "/shop/static/js/main.f28904fb.js",
     "static/js/787.23170c61.chunk.js": "/shop/static/js/787.23170c61.chunk.js",
     "static/media/pocoX3Pro.jpg": "/shop/static/media/pocoX3Pro.f57c95db1b254f22661b.jpg",
     "static/media/lenovoLegion5.jpg": "/shop/static/media/lenovoLegion5.04a8b19ca564b5776440.jpg",
@@ -12,12 +12,12 @@
     "static/media/xBoxX.jpg": "/shop/static/media/xBoxX.99329f12dbd369b35578.jpg",
     "index.html": "/shop/index.html",
     "static/media/shopping_cart.svg": "/shop/static/media/shopping_cart.c9e61b692e6600131d733aa15c0faba6.svg",
-    "main.bcbd92d6.css.map": "/shop/static/css/main.bcbd92d6.css.map",
-    "main.d937e48a.js.map": "/shop/static/js/main.d937e48a.js.map",
+    "main.0a2f6e1f.css.map": "/shop/static/css/main.0a2f6e1f.css.map",
+    "main.f28904fb.js.map": "/shop/static/js/main.f28904fb.js.map",
     "787.23170c61.chunk.js.map": "/shop/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcbd92d6.css",
-    "static/js/main.d937e48a.js"
+    "static/css/main.0a2f6e1f.css",
+    "static/js/main.f28904fb.js"
   ]
 }
