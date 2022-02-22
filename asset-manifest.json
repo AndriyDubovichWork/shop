@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shop/static/css/main.bcbd92d6.css",
+    "main.js": "/shop/static/js/main.75992952.js",
+    "static/js/787.23170c61.chunk.js": "/shop/static/js/787.23170c61.chunk.js",
+    "static/media/pocoX3Pro.jpg": "/shop/static/media/pocoX3Pro.f57c95db1b254f22661b.jpg",
+    "static/media/lenovoLegion5.jpg": "/shop/static/media/lenovoLegion5.04a8b19ca564b5776440.jpg",
+    "static/media/asusRogZephyrusG15.jpg": "/shop/static/media/asusRogZephyrusG15.665e4f4d1a15f6b8ef43.jpg",
+    "static/media/asusRogZephyrusG14.jpg": "/shop/static/media/asusRogZephyrusG14.21a0fa4a6ccf5450c2fd.jpg",
+    "static/media/macBook.jpg": "/shop/static/media/macBook.5c6753dd3ce305a38a8e.jpg",
+    "static/media/playStation5.jpg": "/shop/static/media/playStation5.5a21b3e15eb7330c9fbd.jpg",
+    "static/media/xBoxX.jpg": "/shop/static/media/xBoxX.99329f12dbd369b35578.jpg",
+    "index.html": "/shop/index.html",
+    "static/media/shopping_cart.svg": "/shop/static/media/shopping_cart.c9e61b692e6600131d733aa15c0faba6.svg",
+    "main.bcbd92d6.css.map": "/shop/static/css/main.bcbd92d6.css.map",
+    "main.75992952.js.map": "/shop/static/js/main.75992952.js.map",
+    "787.23170c61.chunk.js.map": "/shop/static/js/787.23170c61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcbd92d6.css",
+    "static/js/main.75992952.js"
+  ]
+}
