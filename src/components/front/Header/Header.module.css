@@ -1,0 +1,40 @@
+.header {
+  background-color: rgb(34, 34, 34, 0.7);
+  position: sticky;
+  min-height: 80px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.home {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 20px;
+  font-size: 200%;
+  font-weight: 600;
+}
+.singup {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 200%;
+  font-weight: 600;
+}
+.cart img {
+  color: #fff;
+  margin-right: 10px;
+}
+.cartNumber {
+  text-decoration: none;
+  color: #fff;
+}
+.rigthheader {
+  margin-right: 20px;
+  display: flex;
+  align-items: right;
+  float: right;
+}

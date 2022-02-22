@@ -1,0 +1,53 @@
+.Item {
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 40px 20px;
+  background-color: rgb(45, 45, 45);
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.img {
+  width: 100%;
+  max-width: 300px;
+
+  min-height: 200px;
+  max-height: 200px;
+  display: block;
+  object-fit: cover;
+}
+.name {
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+.price {
+  margin: 10px 0;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.addtcbtn {
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+
+  border: none;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  display: block;
+  align-self: flex-end;
+
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 10px auto;
+}
+.addtcbtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.addtcbtn:active {
+  transform: translateY(2px);
+}

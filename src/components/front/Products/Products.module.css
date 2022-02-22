@@ -1,0 +1,13 @@
+.products {
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  background-color: rgb(20, 20, 20);
+}
+.Product {
+  margin: 10px auto;
+  text-align: center;
+}
