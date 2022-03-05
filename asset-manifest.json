@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.0a2f6e1f.css",
+    "main.css": "/shop/static/css/main.5e36510c.css",
     "main.js": "/shop/static/js/main.46619b11.js",
     "static/js/787.23170c61.chunk.js": "/shop/static/js/787.23170c61.chunk.js",
     "static/media/pocoX3Pro.jpg": "/shop/static/media/pocoX3Pro.f57c95db1b254f22661b.jpg",
@@ -12,12 +12,12 @@
     "static/media/xBoxX.jpg": "/shop/static/media/xBoxX.99329f12dbd369b35578.jpg",
     "index.html": "/shop/index.html",
     "static/media/shopping_cart.svg": "/shop/static/media/shopping_cart.c9e61b692e6600131d733aa15c0faba6.svg",
-    "main.0a2f6e1f.css.map": "/shop/static/css/main.0a2f6e1f.css.map",
+    "main.5e36510c.css.map": "/shop/static/css/main.5e36510c.css.map",
     "main.46619b11.js.map": "/shop/static/js/main.46619b11.js.map",
     "787.23170c61.chunk.js.map": "/shop/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a2f6e1f.css",
+    "static/css/main.5e36510c.css",
     "static/js/main.46619b11.js"
   ]
 }
