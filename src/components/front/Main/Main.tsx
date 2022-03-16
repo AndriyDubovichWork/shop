@@ -23,14 +23,14 @@ const Main = ({
     <div className={style.Content}>
       <Routes>
         <Route
-          path='/'
+          path='/shop'
           element={<Products addProduct={addProduct} data={data} />}
         />
 
-        <Route path='/singup' element={<SingUp />} />
+        <Route path='/shop/singup' element={<SingUp />} />
 
         <Route
-          path='/cart'
+          path='/shop/cart'
           element={
             <Cart
               cartItems={cartItems}

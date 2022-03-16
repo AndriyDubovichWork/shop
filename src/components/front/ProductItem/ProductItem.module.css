@@ -22,9 +22,9 @@
   margin: 5px 0;
 }
 .price {
-  margin: 10px 0;
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 38px;
+  color: gold;
   line-height: 30px;
 }
 .addtcbtn {

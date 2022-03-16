@@ -11,11 +11,11 @@ interface IHeader {
 const Header = ({ cartItems, cartItemsNum }: IHeader) => {
   return (
     <header className={style.header}>
-      <Link to='/' className={style.home}>
+      <Link to='/shop' className={style.home}>
         Online Shop
       </Link>
       <div className={style.rigthheader}>
-        <Link to='/cart' className={style.cart}>
+        <Link to='/shop/cart' className={style.cart}>
           <img src={shopingCart} />
         </Link>
         <h1 className={style.cartNumber}>{cartItemsNum}</h1>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './Cart.module.css';
 import CartItem from './CartItem';
 
@@ -9,11 +9,21 @@ interface ICart {
   ClearCart: Function;
 }
 const Cart = ({ cartItems, addProduct, RemoveProduct, ClearCart }: ICart) => {
-  const TotalPrice = cartItems.reduce(
+  let TotalPrice = cartItems.reduce(
     (price, item) => price + item.quantity * item.price,
     0
   );
+  const realCoupones = ['kaktus', 'brawlStars', '50%', 'happy', '999'];
+  let IsCouponeRigth = false;
+  let ResultPrice = TotalPrice;
 
+  const [CouponInp, setCouponInp] = useState('');
+  realCoupones.map((str) => {
+    if (str === CouponInp) {
+      ResultPrice = TotalPrice * 0.5;
+      IsCouponeRigth = true;
+    }
+  });
   return (
     <div className={style.cart}>
       <h1 className={style.header}>Cart</h1>
@@ -32,15 +42,32 @@ const Cart = ({ cartItems, addProduct, RemoveProduct, ClearCart }: ICart) => {
         {cartItems.map((item) => {
           return (
             <CartItem
+              key={item.id}
               item={item}
               addProduct={addProduct}
               RemoveProduct={RemoveProduct}
             />
           );
         })}
+        <div className={style.couponDiv}>
+          <input
+            placeholder='Enter Coupon'
+            value={CouponInp}
+            onChange={(e) => setCouponInp(e.target.value)}
+          />
+        </div>
         <div className={style.TotalPrice}>
           <h1>Total Price:</h1>
-          <h1>{TotalPrice}$</h1>
+          <h1 className={style.NewPrice}>
+            {IsCouponeRigth && cartItems.length > 0 ? (
+              <>
+                <p className={style.PreviousPrice}>{TotalPrice}$</p>
+                <p className={style.LastPrice}>{ResultPrice}$</p>
+              </>
+            ) : (
+              ResultPrice + '$'
+            )}
+          </h1>
         </div>
       </div>
     </div>

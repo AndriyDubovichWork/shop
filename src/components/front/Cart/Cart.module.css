@@ -103,3 +103,36 @@
   justify-content: center;
   align-items: center;
 }
+.couponDiv {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+.couponDiv input {
+  margin-top: 10px;
+  width: 500px;
+  height: 30px;
+  font-size: 40px;
+}
+.NewPrice {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.PreviousPrice {
+  color: red;
+  text-decoration: line-through;
+  font-size: 40px;
+}
+.LastPrice {
+  color: gold;
+  font-size: 45px;
+}
+.couponDiv input {
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(255, 0, 0);
+  background-color: #111;
+  border: solid #fff 1px;
+}
