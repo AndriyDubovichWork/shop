@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import ChooseLocation from '../ChooseLocation/ChooseLocation';
+import PayPal from '../PayPal/PayPal';
 import style from './Cart.module.css';
 import CartItem from './CartItem';
 
@@ -18,6 +21,8 @@ const Cart = ({ cartItems, addProduct, RemoveProduct, ClearCart }: ICart) => {
   let ResultPrice = TotalPrice;
 
   const [CouponInp, setCouponInp] = useState('');
+  const [showPayPal, setshowPayPal] = useState(false);
+
   realCoupones.map((str) => {
     if (str === CouponInp) {
       ResultPrice = TotalPrice * 0.5;
@@ -68,6 +73,23 @@ const Cart = ({ cartItems, addProduct, RemoveProduct, ClearCart }: ICart) => {
               ResultPrice + '$'
             )}
           </h1>
+        </div>
+        <div className={style.Payment}>
+          {showPayPal && ResultPrice > 0 ? (
+            <PayPal price={ResultPrice / 1000} />
+          ) : (
+            <div className={style.Button}>
+              <button
+                onClick={() => {
+                  setshowPayPal(true);
+                }}
+                disabled={ResultPrice <= 0}
+              >
+                Buy
+              </button>
+              <Link to={'/location'}>Chose location</Link>
+            </div>
+          )}
         </div>
       </div>
     </div>

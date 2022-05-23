@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Cart from '../Cart/Cart';
+import ChooseLocation from '../ChooseLocation/ChooseLocation';
 import Products from '../Products/Products';
 import SingUp from '../SingUp/SingUp';
 import style from './main.module.css';
@@ -26,6 +27,7 @@ const Main = ({
           path='/shop'
           element={<Products addProduct={addProduct} data={data} />}
         />
+        <Route path='/location' element={<ChooseLocation />} />
 
         <Route path='/shop/singup' element={<SingUp />} />
 
